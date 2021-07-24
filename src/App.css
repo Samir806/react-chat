@@ -1,0 +1,14 @@
+
+
+
+.App{
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas: 
+  'h h h'
+  'n c c'
+  ;
+  grid-template-rows: 80px 4fr;
+  grid-template-columns: 1.7fr 10fr;
+}
+

@@ -1,0 +1,11 @@
+
+.nav{
+    grid-area: n;
+    background-color:chocolate;
+
+  }
+  
+  .nav ul li {
+    list-style-type: none;  
+    margin-right:30px;
+    }
