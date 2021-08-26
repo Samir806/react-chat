@@ -1,0 +1,30 @@
+.dialoq{
+    display: grid;
+    background-color:rgb(107, 122, 114);
+    grid-template-columns: 2fr 10fr;
+  }
+
+  .dialoq-item {
+     padding: 10px;
+     border-right: 2px solid black;
+     line-height: 2;
+  }
+  
+  .messages {
+    padding: 10px; 
+    line-height: 2;
+    color: white;
+  }
+
+
+
+
+.dialoq-item ul li{
+  list-style-type: none; 
+  color: white;
+}
+
+.messages ul li{
+  list-style-type: none; 
+  color: white;
+}

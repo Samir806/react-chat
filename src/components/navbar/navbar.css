@@ -1,11 +1,21 @@
 
 .nav{
     grid-area: n;
-    background-color:chocolate;
-
+    background-color:#d6d87f;
+    line-height: 2;
   }
   
-  .nav ul li {
+.nav ul li {
     list-style-type: none;  
     margin-right:30px;
+    text-decoration: none;
     }
+
+.nav a{
+  text-decoration: none;
+}
+
+.nav-active{
+  color: rgba(85, 7, 95, 0.959);
+  font-weight: bold;
+}
