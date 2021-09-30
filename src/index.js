@@ -18,9 +18,11 @@ import {subscribe} from './redux/state' */
               addMessage = {store.addMessage.bind(store)} 
               /* updateNewPost={store.updateNewPost.bind(store)}  
               updateDialog={store.updateDialog.bind(store)}*/ />
+        
       </Provider>   
     </BrowserRouter>   
      ,
       document.getElementById('root')
     );
+  
   

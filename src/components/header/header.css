@@ -1,6 +1,6 @@
 .header{
     grid-area: h;
-    background-color:#e5f1f1ef;
+    background-color:#7dbebeef;
     
   }
   
@@ -9,3 +9,12 @@
     width:110px;
     height: 70px;
   }
+
+  .log{
+    float:right; 
+  }
+
+  .log a{
+    color: rgb(9, 12, 201);
+    text-decoration: none;
+    }

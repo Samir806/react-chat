@@ -5,12 +5,14 @@ import Profile from "./components/profile/profile";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import DialoqContainer from "./components/dialogs/dialogContainer";
 import UserContainer from "./components/users/usersContainer";
+import ProfileContainer from "./components/profile/profileContainer";
+import HeaderContainer from "./components/header/headerContainer";
 
 const App = (props) => {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <HeaderContainer />
         <Navbar />
         <Route
           path="/dialog"
@@ -18,10 +20,10 @@ const App = (props) => {
         />
 
         <Route
-          path="/profile"
+          path="/profile/:userID?"
           render={() => (
-            <Profile
-              store={props.store}
+            <ProfileContainer
+              
 
               /*  dispatch = {props.store.dispatch}
                   state = {props.state} 
